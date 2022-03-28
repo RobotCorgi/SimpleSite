@@ -4,5 +4,6 @@ This repository is for an assignment during the first week of an Advanced Web Pr
 
 Beep, boop, bark.
  
-Yours truly, 
+Yours truly,
+
 RobotCorgi

@@ -1,27 +1,27 @@
 body{
 	background: #292929;
 	color: #292929;
+	
 	font-family: 'Baskerville', 'Times New Roman', 'times', serif;
 	
-	
 	text-align: center; /*centers text content in an area*/
+	
+	padding:10px;
 	
 	margin-top: 0; 
 	margin-left: auto;
 	margin-right: auto; /*centers region in browser*/
 	
-	padding:10px;
-	
-	border: 0px solid #000000; /*Adds a solid 0 pixel wide border around the body element*/
 	border-radius: 10px;
 	}
 
 h1{
-	font-size: 2em;
 	color: #080C1F;
-	margin: 0;
+	
+	font-size: 2em;
 	font-weight:800;
 	
+	margin: 0;
 	}	
 
 #header{
@@ -29,55 +29,46 @@ h1{
 	
 	padding:10px;
 	
-	border: 0px solid #000000;
 	border-radius: 10px;
-
-	
-	
 	}
 
 #content{
-	background: #5E71C4; /*#687BD8;*/
+	background: #5E71C4; 
+	
+	font-family: 'Verdana', sans-serif;
 	
 	padding:10px;
 	
-	border: 0px solid #000000;
 	border-radius: 10px;
-	font-family: 'Verdana', sans-serif;
 	}
 
-
-
 .image{
+	display: block;
+	
 	width:80%;
 	max-width:600px;
 	
-	display: block;
-	
 	margin-left: auto;
 	margin-right: auto;
-	
-	margin-top:10px;/*
-	padding: 0px 5px 5px 5px;
-	border: 3px solid #1C2866; */
-	
+	margin-top:10px;
 	margin-bottom: 20px;
 	
 	border-radius: 20px;
-	
+
 	box-shadow: #1C2866 1px 1px 15px;
 	}
 
 h3{
-	margin: 1px;
-	padding: 0 0 5px 0;
-	font-size: 1.32em;
 	color: #080C1F;
+	
+	font-size: 1.32em;
 	text-decoration:underline;
 	letter-spacing: .32px;  
 	
+	padding: 0 0 5px 0;
 	
-}
+	margin: 1px;
+	}
 
 #caption{
 	background: rgb(123, 145, 255); 
@@ -86,71 +77,64 @@ h3{
 	
 	margin: 5px 0px;
 	
-	border: 0px solid #000000;
 	border-radius: 10px;
 	
 	box-shadow: inset rgba(255, 255, 255, 0.2) 0px 0px 50px;
-	
 	}
 	
 #caption p{
 	margin: 5px 0px;
-}	
+	}	
 
 #caption h3{
 	font-family: 'Baskerville', serif;
-}
+	}
 
 #navigation{
 	background: #1C2866;
+	
+	letter-spacing: .035em;
 	
 	padding: 10px;
 	
 	margin: 10px 0px;
 	
-	border: 0px solid #c2c2c2;
 	border-radius: 10px;
-	letter-spacing: .035em;
-	
 	}
-	
 	
 .links1{
+	display: inline-block;
+	
 	margin-top: 5px;
 	margin-bottom:0px;
-
-	display: inline-block;
 	}
 
-
 #navigation a{
+	display: inline-block;
+	
 	margin-right: auto;
 	margin-left: auto;
 	margin: 5px;
-	
-	display: inline-block;
-	
-	
-
 	}
 	
-	
 a:link{
-	text-decoration: none; 
-	color: #CAD3FF; 
 	background: #7685cf; 
+	
+	color: #CAD3FF; 
+
+	font-size: 1.15em;
+	text-decoration: none; 
 	
 	padding: 15px 25px 15px 25px; 
 	
 	border-radius: 8px; 
-	font-size: 1.15em;
-
 	}
 	
 a:visited{
-	text-decoration: none; 
-	color: #cccccc; 	
 	background: #3C56DA; 
+	color: #cccccc;
+	
+	text-decoration: none;
 	
 	padding: 15px 25px 15px 25px; 
 	
@@ -158,9 +142,10 @@ a:visited{
 	}
 	
 a:active{
-	text-decoration: underline; 
+	background: #7B91FF;
+	
 	color: #1C2866; 
-	background: #7B91FF; 
+	text-decoration: underline; 
 	
 	padding: 15px 25px 15px 25px; 
 	
@@ -168,23 +153,21 @@ a:active{
 	}
 	
 a:hover, a:focus{
-	text-decoration: none; 
-	color: #080C1F; 
 	background: #7B91FF; 
+	color: #080C1F; 
+	
+	text-decoration: none; /*Not sure if this is a reset and needed, or not needed, so test this*/
 	
 	padding: 15px 25px 15px 25px; 
-	
+
 	border-radius: 8px;  
 	
 	box-shadow: #B0BDFF 0px 0px 25px;
-
 	
-	text-decoration: underline;
-
+	text-decoration: underline; /*Perhaps this is a repeat, test to be sure*/
 	}
 
-/*Focus lets the user use their arrow keys on their keyboard to navigate for accessibility purposes the color of the navigation links changes color when a user hovers or uses their arrow keys*/
-
+/*Reminder that the focus part of this is for accessibility. Focus lets the user use their arrow keys on their keyboard to navigate for accessibility purposes the color of the navigation links change color when a user hovers or uses their arrow keys*/
 
 #footer{
 	background: #313131;
@@ -196,12 +179,9 @@ a:hover, a:focus{
 	
 	margin: 10px 0px;
 	
-	border: 0px solid #000000;
 	border-radius: 10px;
 	}
 	
 #footer p{
 	margin: 5px 0px;
-}	
-
-
+	}

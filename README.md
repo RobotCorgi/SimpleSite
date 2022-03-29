@@ -18,7 +18,8 @@ More things will end up broken, but hopefully will be fixed.
 
 **Markdown Heading Spacing Issues:**
 - A space is required between the hashtags and the heading, or title in Markdown. 
-- Learning and practicing with Markdown more.
+- Now learning and practicing with Markdown more.
+> ##### - _**~~Learning Markdown by praciting.~~ <sup>DO <sub>ALL</sub> THE THINGS</sup> ~~with this strikethrough bold italics bullet point heading blockquote~~**_
 
 **Syncing Issues:**
 - Git and GitHub should now sync via VS Code, and not just locally... hopefully.
@@ -29,6 +30,7 @@ More exploring of VS Code and GitHub will occur. Usually this involves a complet
 
 Beep, boop, bark.
  
-Yours truly,
+_Yours truly,_
 
-RobotCorgi
+***RobotCorgi***
+

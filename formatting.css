@@ -1,0 +1,207 @@
+body{
+	background: #292929;
+	color: #292929;
+	font-family: 'Baskerville', 'Times New Roman', 'times', serif;
+	
+	
+	text-align: center; /*centers text content in an area*/
+	
+	margin-top: 0; 
+	margin-left: auto;
+	margin-right: auto; /*centers region in browser*/
+	
+	padding:10px;
+	
+	border: 0px solid #000000; /*Adds a solid 0 pixel wide border around the body element*/
+	border-radius: 10px;
+	}
+
+h1{
+	font-size: 2em;
+	color: #080C1F;
+	margin: 0;
+	font-weight:800;
+	
+	}	
+
+#header{
+	background: #7B91FF;
+	
+	padding:10px;
+	
+	border: 0px solid #000000;
+	border-radius: 10px;
+
+	
+	
+	}
+
+#content{
+	background: #5E71C4; /*#687BD8;*/
+	
+	padding:10px;
+	
+	border: 0px solid #000000;
+	border-radius: 10px;
+	font-family: 'Verdana', sans-serif;
+	}
+
+
+
+.image{
+	width:80%;
+	max-width:600px;
+	
+	display: block;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-top:10px;/*
+	padding: 0px 5px 5px 5px;
+	border: 3px solid #1C2866; */
+	
+	margin-bottom: 20px;
+	
+	border-radius: 20px;
+	
+	box-shadow: #1C2866 1px 1px 15px;
+	}
+
+h3{
+	margin: 1px;
+	padding: 0 0 5px 0;
+	font-size: 1.32em;
+	color: #080C1F;
+	text-decoration:underline;
+	letter-spacing: .32px;  
+	
+	
+}
+
+#caption{
+	background: rgb(123, 145, 255); 
+	
+	padding: 10px;
+	
+	margin: 5px 0px;
+	
+	border: 0px solid #000000;
+	border-radius: 10px;
+	
+	box-shadow: inset rgba(255, 255, 255, 0.2) 0px 0px 50px;
+	
+	}
+	
+#caption p{
+	margin: 5px 0px;
+}	
+
+#caption h3{
+	font-family: 'Baskerville', serif;
+}
+
+#navigation{
+	background: #1C2866;
+	
+	padding: 10px;
+	
+	margin: 10px 0px;
+	
+	border: 0px solid #c2c2c2;
+	border-radius: 10px;
+	letter-spacing: .035em;
+	
+	}
+	
+	
+.links1{
+	margin-top: 5px;
+	margin-bottom:0px;
+
+	display: inline-block;
+	}
+
+
+#navigation a{
+	margin-right: auto;
+	margin-left: auto;
+	margin: 5px;
+	
+	display: inline-block;
+	
+	
+
+	}
+	
+	
+a:link{
+	text-decoration: none; 
+	color: #CAD3FF; 
+	background: #7685cf; 
+	
+	padding: 15px 25px 15px 25px; 
+	
+	border-radius: 8px; 
+	font-size: 1.15em;
+
+	}
+	
+a:visited{
+	text-decoration: none; 
+	color: #cccccc; 	
+	background: #3C56DA; 
+	
+	padding: 15px 25px 15px 25px; 
+	
+	border-radius: 20px; 
+	}
+	
+a:active{
+	text-decoration: underline; 
+	color: #1C2866; 
+	background: #7B91FF; 
+	
+	padding: 15px 25px 15px 25px; 
+	
+	border-radius: 20px; 
+	}
+	
+a:hover, a:focus{
+	text-decoration: none; 
+	color: #080C1F; 
+	background: #7B91FF; 
+	
+	padding: 15px 25px 15px 25px; 
+	
+	border-radius: 8px;  
+	
+	box-shadow: #B0BDFF 0px 0px 25px;
+
+	
+	text-decoration: underline;
+
+	}
+
+/*Focus lets the user use their arrow keys on their keyboard to navigate for accessibility purposes the color of the navigation links changes color when a user hovers or uses their arrow keys*/
+
+
+#footer{
+	background: #313131;
+	color: #6b6b6b;
+	
+	font-size: 0.8em;
+	
+	padding:10px;
+	
+	margin: 10px 0px;
+	
+	border: 0px solid #000000;
+	border-radius: 10px;
+	}
+	
+#footer p{
+	margin: 5px 0px;
+}	
+
+

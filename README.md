@@ -12,15 +12,16 @@ This project was made with love and coffee... lots of coffee. Homebrew, too.
 More things will end up broken, but hopefully will be fixed. 
 
 ### Example Mistakes Made
-- Commit-ment to Better Quality Commits
-This Robotic Corgi is comitted to making meaningful commits when things are fixed. 
-Also, more articles will be read on how to write better commits.
 
-- Now commits will have 50 characters, not 50 words 
-Whoops. Sorry about the previous long commits.
+**Overly Long Commits:**
+- Now commits will have 50 ***characters***, not 50 ***words***. Whoops. Sorry about the previous long commits.
 
-- Syncing Issues
-Git and GitHub should now sync via VS Code, and not just locally... hopefully.
+**Markdown Heading Spacing Issues:**
+- A space is required between the hashtags and the heading, or title in Markdown. 
+- Learning and practicing with Markdown more.
+
+**Syncing Issues:**
+- Git and GitHub should now sync via VS Code, and not just locally... hopefully.
 
 ### Buttons Have Been Pushed and Will Continue to be Pushed Randomly
 More exploring of VS Code and GitHub will occur. Usually this involves a completely un-scientific random button pressing and seeing what happens. This type of process is then repeated again and again. Sometimes things break as a result. What things will break? What things will work? I won't know... yet! But I'll keep on trying anyways and seeing what happens. Sometimes, once in a while, they just work right, and it's a beautiful thing. 
